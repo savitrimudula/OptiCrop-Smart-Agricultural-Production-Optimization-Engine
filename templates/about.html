@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About</title>
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<nav>
+    <a href="/">Home</a>
+    <a href="/about">About</a>
+    <a href="/predict">Predict</a>
+</nav>
+
+<div class="container">
+
+<h1>📖 About Project</h1>
+
+<p>
+This project recommends the most suitable crop
+based on environmental conditions.
+</p>
+
+<div class="cards">
+
+<div class="card">
+🌡 Temperature
+</div>
+
+<div class="card">
+💧 Humidity
+</div>
+
+<div class="card">
+🧪 pH Value
+</div>
+
+<div class="card">
+🌧 Rainfall
+</div>
+
+</div>
+
+<h2>Technology Used</h2>
+
+<ul>
+<li>Python</li>
+<li>Flask</li>
+<li>Machine Learning</li>
+<li>Random Forest</li>
+</ul>
+
+</div>
+
+</body>
+</html>
